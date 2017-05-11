@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/effect2.wav",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/effect2.wav"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\background.mp3",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\background.mp3"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/background.mp3",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/background.mp3"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect2.wav",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\effect2.wav"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect1.wav",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\effect1.wav"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/effect1.wav",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/effect1.wav"
+    }
+]
