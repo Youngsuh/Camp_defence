@@ -95,8 +95,10 @@ public class GameState implements IState {
 		for (int i = m_enemlist.size()-1; i >= 0; i--) {
     		if(CollisionManager.CheckBoxToBox(m_player.m_BoundBox,m_enemlist.get(i).m_BoundBox)){
 
+				//여기 바꿔야함
     			m_explist.add(new Effect_Explosion_1(m_enemlist.get(i).GetX(),m_enemlist.get(i).GetY()));
-    			m_enemlist.remove(i);
+
+				m_enemlist.remove(i);
  //   			m_player.destroyPlayer();
     			if(m_player.getLife() == 0 )
     				System.exit(0);
