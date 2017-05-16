@@ -9,10 +9,24 @@ import org.Framework.GraphicObject;
  */
 
 public class Effect_Explosion extends GraphicObject {
-    public int Type;
-
+    public static final int STATE_NORMAL = 0;
+    public static final int STATE_DELETE = 1;
+    long m_LastEnemyEffect = System.currentTimeMillis();
+    public int state =  STATE_NORMAL;
     public Effect_Explosion(Bitmap bitmap) {
         super(bitmap);
 
+    }
+    void Delete(){
+        if(System.currentTimeMillis() - m_LastEnemyEffect >= 1000){
+            m_LastEnemyEffect = System.currentTimeMillis();
+            state = STATE_DELETE;
+        }
+    }
+
+    @Override
+    public void Update(long GameTime) {
+        super.Update(GameTime);
+        Delete();
     }
 }

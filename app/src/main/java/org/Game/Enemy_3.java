@@ -6,7 +6,7 @@ import org.Framework.R;
 public class Enemy_3 extends Enemy {
 	//bouns
 	public Enemy_3(){
-		super(AppManager.getInstance().getBitmap(R.drawable.bonus));
+		super(AppManager.getInstance().getBitmap(R.drawable.em_bouns));
 		this.InitSpriteData(220	, 157, 3, 6);
 		hp = 13;
 		speed = 2;

@@ -10,7 +10,7 @@ import org.Framework.R;
 public class Enemy_4 extends Enemy{
     //Falcon
     public Enemy_4(){
-        super(AppManager.getInstance().getBitmap(R.drawable.falcon));
+        super(AppManager.getInstance().getBitmap(R.drawable.em_falcon));
         this.InitSpriteData(200, 263, 10, 10);
         hp = 5;
         speed = 6;

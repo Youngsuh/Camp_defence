@@ -30,4 +30,8 @@ public class GraphicObject {
 	public int GetY(){
 		return m_y;
 	}
+
+	public void Update(long GameTime) {
+
+	}
 }

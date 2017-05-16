@@ -6,7 +6,7 @@ import org.Framework.R;
 public class Missile_Player extends Missile {
 	
 	Missile_Player(int x,int y){
-		super(AppManager.getInstance().getBitmap(R.drawable.arrow));
+		super(AppManager.getInstance().getBitmap(R.drawable.wp_arrow));
 		this.SetPosition(x, y);
 	}
 	

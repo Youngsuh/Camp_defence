@@ -3,12 +3,10 @@ package org.Game;
 import org.Framework.AppManager;
 import org.Framework.R;
 
-import android.graphics.Bitmap;
-
 public class Enemy_2 extends Enemy {
 	//Yeti
 	public Enemy_2(){
-		super(AppManager.getInstance().getBitmap(R.drawable.yeti));
+		super(AppManager.getInstance().getBitmap(R.drawable.em_yeti));
 		this.InitSpriteData(210	, 175, 8, 7);
 		//700 120
 		hp = 10;

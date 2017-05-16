@@ -8,10 +8,13 @@ import org.Framework.Collision;
 import org.Framework.CollisionManager;
 import org.Framework.IState;
 import org.Framework.R;
+import org.Framework.SoundManager;
 
+import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.media.SoundPool;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
@@ -22,6 +25,16 @@ public class GameState implements IState {
 	private Player_1 m_player_1;
 	private Player_2 m_player_2;
 	private Player_3 m_player_3;
+
+	public static final int SOUND_EFFECT_1 = 1; // bg
+	public static final int SOUND_EFFECT_2 = 2; //
+	public static final int SOUND_EFFECT_3 = 3; //
+	public static final int SOUND_EFFECT_4 = 4;	//
+	public static final int SOUND_EFFECT_5 = 5;	//
+	public static final int SOUND_EFFECT_6 = 6;	// em_1_ice wolf
+	public static final int SOUND_EFFECT_7 = 7;	// em_2_ yeti
+	public static final int SOUND_EFFECT_8 = 8;	// em_3_ bouns
+	public static final int SOUND_EFFECT_9 = 9;	// em_4_ falcon
 
 
 	private BackGround m_background;
@@ -65,11 +78,19 @@ public class GameState implements IState {
 	}
 	@Override
 	public void Init() {
-        m_player = new Player(AppManager.getInstance().getBitmap(R.drawable.ballista));
-		m_player_1 = new Player_1(AppManager.getInstance().getBitmap(R.drawable.ballista));
-		m_player_2 = new Player_2(AppManager.getInstance().getBitmap(R.drawable.ballista));
-		m_player_3 = new Player_3(AppManager.getInstance().getBitmap(R.drawable.ballista));
+        m_player = new Player(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
+		m_player_1 = new Player_1(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
+		m_player_2 = new Player_2(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
+		m_player_3 = new Player_3(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
 
+        SoundManager.getInstance().Init(AppManager.getInstance().getActivity());
+		SoundManager.getInstance().addSound(SOUND_EFFECT_1, R.raw.sound_main_stage);
+		SoundManager.getInstance().addSound(SOUND_EFFECT_6, R.raw.sound_ice_wolf);
+        SoundManager.getInstance().addSound(SOUND_EFFECT_7 , R.raw.yeti_sound);
+        SoundManager.getInstance().addSound(SOUND_EFFECT_8, R.raw.sound_bonus);
+        SoundManager.getInstance().addSound(SOUND_EFFECT_9 , R.raw.sound_falcon);
+
+        SoundManager.getInstance().play(1);
 		m_background=new BackGround(1);
 	}
 	
@@ -233,7 +254,13 @@ public class GameState implements IState {
             if(enem.state == Enemy.STATE_OUT)
                 m_enemlist.remove(i);
         }
-
+		for (int i = m_explist.size()-1; i >= 0; i--) {
+			Effect_Explosion exp = m_explist.get(i);
+			exp.Update(GameTime);
+			if(exp.state == Effect_Explosion.STATE_DELETE){
+				m_explist.remove(i);
+			}
+		}
         for (int i = m_itemlist.size()-1; i >= 0; i--) {
             Item item = m_itemlist.get(i);
             item.Update(GameTime);
