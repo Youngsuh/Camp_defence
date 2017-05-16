@@ -14,7 +14,7 @@ public class Player extends GraphicObject {
 	Rect m_BoundBox = new Rect();
 
 	int m_Life = 20;
-	int m_power = 10;
+	int m_power = 3;
 
 	public Player(Bitmap bitmap) {
 		super(bitmap);

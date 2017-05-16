@@ -31,7 +31,7 @@ public class GameState implements IState {
 	ArrayList<Missile> m_enemmslist = new ArrayList<Missile>();
 	ArrayList<Item> m_itemlist = new ArrayList<Item>();
 	ArrayList<Enemy> m_enemlist = new ArrayList<Enemy>();
-	ArrayList<Effect_Explosion_1> m_explist = new ArrayList<Effect_Explosion_1>();
+	ArrayList<Effect_Explosion> m_explist = new ArrayList<Effect_Explosion>();
 	
 	private int m_scroll = 0;
 	private final static int SCROLL_SPEED = 1;
@@ -39,7 +39,8 @@ public class GameState implements IState {
 	public int m_score = 0;
 	
 	long m_LastRegenEnemy = System.currentTimeMillis();
-	
+	long m_LastEnemyEffect = System.currentTimeMillis();
+
 	Random m_randEnem = new Random();
 	Random m_randItem = new Random();
 
@@ -73,21 +74,32 @@ public class GameState implements IState {
 	}
 	
 	public void CheckCollision(){
+		Effect_Explosion explist = null;
 		for (int i = m_pmslist.size()-1; i >= 0; i--) {
 			for (int j = m_enemlist.size()-1; j >= 0; j--) {
 	    		if(CollisionManager.CheckBoxToBox(m_pmslist.get(i).m_BoundBox,m_enemlist.get(j).m_BoundBox)){
-	    			m_explist.add(new Effect_Explosion_1(m_enemlist.get(j).GetX(),m_enemlist.get(j).GetY()));
-	    			CreateItem(m_enemlist.get(j).GetX(),m_enemlist.get(j).GetY());
+					m_enemlist.get(j).Damage(m_player.GetPower());
+					if(m_enemlist.get(j).GetHP() <= 0) {
+						if (m_enemlist.get(j).Type == 1) {
+							explist = new Effect_Explosion_1(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+						}
+						else if (m_enemlist.get(j).Type == 2) {
+							explist = new Effect_Explosion_2(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+						}
+						else if (m_enemlist.get(j).Type == 3) {
+							explist = new Effect_Explosion_3(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+						}
+						else if (m_enemlist.get(j).Type == 4) {
+							explist = new Effect_Explosion_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+						}
+						m_explist.add(explist);
+						CreateItem(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+						m_pmslist.remove(i);
 
-	    			m_pmslist.remove(i);
+						m_enemlist.remove(j);
 
-	    			m_enemlist.get(j).Damage(m_player.GetPower());
-
-
-					if(m_enemlist.get(j).GetHP() <= 0)
-	    				m_enemlist.remove(j);
-
-	    			return;
+						return;
+					}
 	    		}
 	        }
         }
@@ -96,7 +108,6 @@ public class GameState implements IState {
     		if(CollisionManager.CheckBoxToBox(m_player.m_BoundBox,m_enemlist.get(i).m_BoundBox)){
 
 				//여기 바꿔야함
-    			m_explist.add(new Effect_Explosion_1(m_enemlist.get(i).GetX(),m_enemlist.get(i).GetY()));
 
 				m_enemlist.remove(i);
  //   			m_player.destroyPlayer();
@@ -177,7 +188,7 @@ public class GameState implements IState {
     	for (Enemy enem : m_enemlist) {
     		enem.Draw(canvas);
         }
-    	for (Effect_Explosion_1 exp : m_explist) {
+    	for (Effect_Explosion exp : m_explist) {
     		exp.Draw(canvas);
         }
 
