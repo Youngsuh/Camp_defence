@@ -11,7 +11,7 @@ public class Missile_Player extends Missile {
 	}
 	
 	public void Update(){
-	m_x +=20;
+		m_x +=20;
 		if(m_x > 1920)
 			state = STATE_OUT;
 

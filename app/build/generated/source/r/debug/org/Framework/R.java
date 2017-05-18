@@ -24,18 +24,14 @@ public final class R {
         public static final int explosion=0x7f02000a;
         public static final int hp_down=0x7f02000b;
         public static final int icon=0x7f02000c;
-        public static final int item1=0x7f02000d;
-        public static final int item2=0x7f02000e;
-        public static final int item3=0x7f02000f;
-        public static final int item4=0x7f020010;
-        public static final int item_hp_up=0x7f020011;
-        public static final int item_speed_down=0x7f020012;
-        public static final int item_speed_up=0x7f020013;
-        public static final int item_timer=0x7f020014;
-        public static final int keypad=0x7f020015;
-        public static final int pl_ballista=0x7f020016;
-        public static final int player=0x7f020017;
-        public static final int wp_arrow=0x7f020018;
+        public static final int item_hp_up=0x7f02000d;
+        public static final int item_speed_down=0x7f02000e;
+        public static final int item_speed_up=0x7f02000f;
+        public static final int item_timer=0x7f020010;
+        public static final int keypad=0x7f020011;
+        public static final int pl_ballista=0x7f020012;
+        public static final int player=0x7f020013;
+        public static final int wp_arrow=0x7f020014;
     }
     public static final class layout {
         public static final int main=0x7f030000;
