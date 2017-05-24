@@ -78,6 +78,7 @@ public class GameState implements IState {
 
         SoundManager.getInstance().play(1);
 		m_background=new BackGround(1);
+		//ㅁ
 	}
 	
 	public synchronized void CheckCollision(){
