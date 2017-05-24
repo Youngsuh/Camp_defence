@@ -105,25 +105,24 @@ public class GameState implements IState {
 							m_explist.add(explist);
 
 
-							if (itemlist == 1) {
+							if (itemlist == 1) { //hp up
 								item_list = new Item_1(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								m_itemlist.add(item_list);
 
-							} else if (itemlist == 2) {
+							} else if (itemlist == 2) { // speed down
 								item_list = new Item_2(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								m_itemlist.add(item_list);
 
-							} else if (itemlist == 3) {
+							} else if (itemlist == 3) { // speed up
 								item_list = new Item_3(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								m_itemlist.add(item_list);
 
 							}
-							else if (itemlist == 4) {
+							else if (itemlist == 4) {// speed up
 								item_list = new Item_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								m_itemlist.add(item_list);
-
 							}
-							else if (itemlist == 5) {
+							else if (itemlist == 5) { //timer
 								item_list = new Item_5(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								m_itemlist.add(item_list);
 
@@ -137,18 +136,6 @@ public class GameState implements IState {
 				}
 			}
 		}
-
-
-
-	//	for (int i = m_itemlist.size()-1; i >= 0; i--) {
-   // 		if(CollisionManager.CheckBoxToBox(m_player_1.m_BoundBox,m_itemlist.get(i).m_BoundBox)){
-    //			m_itemlist.get(i).GetItem();
-    //			m_itemlist.remove(i);
-   // 		}
-	//
-	//		return;
-    //    }
-
 	}
 
 	public void MakeEnemy(){
@@ -159,6 +146,8 @@ public class GameState implements IState {
 			int enemtype = m_randEnem.nextInt(4);
 			int enemPosi = m_randEnem.nextInt(4);
 			Enemy enem = null;
+
+			//적유닛을 타입에 따라 생성
 			if(enemtype == 0){
 				enem = new Enemy_1();
 			}
@@ -171,6 +160,8 @@ public class GameState implements IState {
 			else if(enemtype == 3){
 				enem = new Enemy_4();
 			}
+
+			//적 유닛의 위치 조정
 			if(enemPosi == 0) {
 				enem.SetPosition(1920, 200);
 			}

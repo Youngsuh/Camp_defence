@@ -34,5 +34,6 @@ public class Item extends GraphicObject {
 		super.Update(GameTime);
 		Delete();
 	}
+
 	
 }

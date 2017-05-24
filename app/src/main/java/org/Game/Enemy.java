@@ -18,7 +18,7 @@ public class Enemy extends SpriteAnimation {
 
 
 	protected int hp;
-	protected float speed;
+	public float speed;
 	protected int score;
 
 	public int Type;
