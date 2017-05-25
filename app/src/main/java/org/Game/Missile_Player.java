@@ -4,7 +4,10 @@ import org.Framework.AppManager;
 import org.Framework.R;
 
 public class Missile_Player extends Missile {
-	
+	public static final int STATE_NORMAL = 0;
+	public static final int STATE_OUT = 1;
+
+	public int state =  STATE_NORMAL;
 	Missile_Player(int x,int y){
 		super(AppManager.getInstance().getBitmap(R.drawable.wp_arrow));
 		this.SetPosition(x, y);
