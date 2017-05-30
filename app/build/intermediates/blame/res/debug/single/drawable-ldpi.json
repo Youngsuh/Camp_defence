@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-ldpi/icon.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]

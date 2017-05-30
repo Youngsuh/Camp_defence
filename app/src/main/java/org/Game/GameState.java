@@ -64,10 +64,10 @@ public class GameState implements IState {
 
 	@Override
 	public void Init() {
-		m_player = new Player(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
-		m_player_1 = new Player_1(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
-		m_player_2 = new Player_2(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
-		m_player_3 = new Player_3(AppManager.getInstance().getBitmap(R.drawable.pl_ballista));
+		m_player = new Player(AppManager.getInstance().getBitmap(R.drawable.pl_ballista_refair));
+		m_player_1 = new Player_1(AppManager.getInstance().getBitmap(R.drawable.pl_ballista_refair));
+		m_player_2 = new Player_2(AppManager.getInstance().getBitmap(R.drawable.pl_ballista_refair));
+		m_player_3 = new Player_3(AppManager.getInstance().getBitmap(R.drawable.pl_ballista_refair));
 
 		SoundManager.getInstance().Init(AppManager.getInstance().getActivity());
 		SoundManager.getInstance().addSound(SOUND_EFFECT_1, R.raw.sound_main_stage);
@@ -77,7 +77,7 @@ public class GameState implements IState {
 		SoundManager.getInstance().addSound(SOUND_EFFECT_9, R.raw.sound_falcon);
 
 		SoundManager.getInstance().play(1);
-		m_background = new BackGround(1);
+		m_background = new BackGround();
 		//ㅁ
 	}
 

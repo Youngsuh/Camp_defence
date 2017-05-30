@@ -1,134 +1,226 @@
 [
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ice_wolf.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ice_wolf.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ice_wolf_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ice_wolf_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/em_falcon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/em_falcon.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wp_arrow.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\wp_arrow.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_main_background.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/bg_main_background.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_yeti_die.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_yeti_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/main_background.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/main_background.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_falcon_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_falcon_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/speed_up.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/speed_up.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_hp_up.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_hp_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/item_timer.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/item_timer.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\falcon_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\falcon_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/em_bouns.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/em_bouns.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_ice_wolf.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_ice_wolf.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/falcon_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/falcon_die.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_falcon_die.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_falcon_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/pl_ballista.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/pl_ballista.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\speed_up.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\speed_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/hp_up.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/hp_up.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pl_ballista_refair.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\pl_ballista_refair.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/icon.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\timer.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\timer.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/arrow.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/arrow.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wp_arrow.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\wp_arrow.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ef_ice_wolf_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ef_ice_wolf_die.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_bouns.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_bouns.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/hp_down.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/hp_down.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_bg_refair.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\main_bg_refair.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ice_wolf_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ice_wolf_die.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ef_falcon_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ef_falcon_die.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_yeti_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_yeti_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ef_yeti_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ef_yeti_die.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yeti.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\yeti.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/bonus.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/bonus.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/yeti.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/yeti.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wp_arrow_refair.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\wp_arrow_refair.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/item_speed_down.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/item_speed_down.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_hp_up.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_hp_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_speed_up.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_speed_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ef_bonus_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ef_bonus_die.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/speed_down.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/speed_down.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pl_ballista.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\pl_ballista.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/wp_arrow.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/wp_arrow.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hp_up.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\hp_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/falcon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/falcon.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_falcon.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_falcon.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/item_hp_up.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/item_hp_up.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yeti_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\yeti_die.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/timer.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/timer.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_bouns.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_bouns.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/em_yeti.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/em_yeti.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ballista.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ballista.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/em_ice_wolf.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/em_ice_wolf.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\speed_down.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\speed_down.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/item_speed_up.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/item_speed_up.png"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_speed_up.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_speed_up.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/bonus_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/bonus_die.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_speed_down.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_speed_down.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/yeti_die.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/yeti_die.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_ice_wolf.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_ice_wolf.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/drawable-hdpi/ballista.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/drawable-hdpi/ballista.png"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_ice_wolf_die.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_ice_wolf_die.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_bonus_die.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_bonus_die.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pl_ballista_refair.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\pl_ballista_refair.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_speed_down.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_speed_down.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_yeti.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_yeti.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_ice_wolf_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_ice_wolf_die.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ef_bonus_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ef_bonus_die.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hp_down.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\hp_down.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_timer.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_timer.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_yeti.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_yeti.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ice_wolf.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\ice_wolf.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bonus.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\bonus.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\falcon.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\falcon.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_bg_refair.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\main_bg_refair.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hp_down.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\hp_down.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_timer.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\item_timer.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_falcon.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\em_falcon.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_main_background.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\bg_main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bonus_die.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\bonus_die.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pl_ballista.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\pl_ballista.png"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_main_background.png",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\bg_main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wp_arrow_refair.png",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-hdpi\\wp_arrow_refair.png"
     }
 ]

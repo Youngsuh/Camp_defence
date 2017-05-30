@@ -9,7 +9,7 @@ public class Missile_Player extends Missile {
 
 	public int state =  STATE_NORMAL;
 	Missile_Player(int x,int y){
-		super(AppManager.getInstance().getBitmap(R.drawable.wp_arrow));
+		super(AppManager.getInstance().getBitmap(R.drawable.wp_arrow_refair));
 		this.SetPosition(x, y);
 	}
 	

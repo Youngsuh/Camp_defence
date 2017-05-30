@@ -1,7 +1,7 @@
-#Thu May 18 14:25:02 KST 2017
-base.0=/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4303ddd007fbdc0d14337bf1da9cf95fd52def8b
+#Tue May 30 10:36:26 KST 2017
+base.0=C\:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2fa3d94ec5036869528ba6e76291ad48ab8c49e7
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_03a2a6460a803efa9232707b02db1f8c17a67531/classes.dex
-base.1=/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_03a2a6460a803efa9232707b02db1f8c17a67531
-file.0=/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4303ddd007fbdc0d14337bf1da9cf95fd52def8b/classes.dex
+file.1=C\:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6777d94c9f6b0216d5cd829d4b18a17f4e8da967\\classes.dex
+base.1=C\:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6777d94c9f6b0216d5cd829d4b18a17f4e8da967
+file.0=C\:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2fa3d94ec5036869528ba6e76291ad48ab8c49e7\\classes.dex

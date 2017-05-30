@@ -1,78 +1,130 @@
 [
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_general.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_general.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_general.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_general.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_clear.mp3",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_clear.mp3"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_launch.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_launch.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/effect2.wav",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/effect2.wav"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_soldier.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_soldier.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\background.mp3",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\background.mp3"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_clear.mp3",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_clear.mp3"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/background.mp3",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/background.mp3"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\yeti_sound.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\yeti_sound.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_amazon_sound.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_amazon_sound.ogg"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_intro.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_intro.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect2.wav",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\effect2.wav"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_amazon_sound.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_amazon_sound.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_intro.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_intro.ogg"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_ice_wolf.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_ice_wolf.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_soldier.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_soldier.ogg"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_general.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_general.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_falcon.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_falcon.ogg"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_main_stage.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_main_stage.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_bonus.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_bonus.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_soldier.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_soldier.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_heroine.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_heroine.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_ending.mp3",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_ending.mp3"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_main_stage.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_main_stage.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_amazon_sound.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_amazon_sound.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/yeti_sound.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/yeti_sound.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_bonus.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_bonus.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect1.wav",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/D:\\AndDev\\Workspace\\Framework\\app\\src\\main\\res\\raw\\effect1.wav"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_ending.mp3",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_ending.mp3"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/effect1.wav",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/effect1.wav"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect1.wav",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\effect1.wav"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_launch.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_launch.ogg"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\yeti_sound.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\yeti_sound.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_ending.mp3",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_ending.mp3"
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_falcon.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_falcon.ogg"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/build/intermediates/res/merged/debug/raw/sound_ice_wolf.ogg",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Framework 2/app/src/main/res/raw/sound_ice_wolf.ogg"
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_bonus.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_bonus.ogg"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_falcon.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_falcon.ogg"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_intro.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_intro.ogg"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect2.wav",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\effect2.wav"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_ice_wolf.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_ice_wolf.ogg"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect2.wav",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\effect2.wav"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_main_stage.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_main_stage.ogg"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_launch.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_launch.ogg"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_heroine.ogg",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_heroine.ogg"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_clear.mp3",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_clear.mp3"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\background.mp3",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\background.mp3"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\background.mp3",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\background.mp3"
+    },
+    {
+        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect1.wav",
+        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\effect1.wav"
+    },
+    {
+        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound_heroine.ogg",
+        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\raw\\sound_heroine.ogg"
     }
 ]
