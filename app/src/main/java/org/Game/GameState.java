@@ -267,7 +267,7 @@ public class GameState implements IState {
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		SoundManager.getInstance().playLooped(1);
-
+//
 		return true;
 	}
 
