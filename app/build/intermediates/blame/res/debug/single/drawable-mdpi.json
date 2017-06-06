@@ -1,58 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\explosion.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\explosion.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-mdpi/explosion.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-mdpi/explosion.png"
     },
     {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item1.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\item1.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-mdpi/android.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-mdpi/android.png"
     },
     {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\player.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\player.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-mdpi/player.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-mdpi/player.png"
     },
     {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item4.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\item4.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-mdpi/keypad.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-mdpi/keypad.png"
     },
     {
-        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\keypad.png",
-        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\keypad.png"
-    },
-    {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item2.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\item2.png"
-    },
-    {
-        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
-        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
-    },
-    {
-        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\explosion.png",
-        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\explosion.png"
-    },
-    {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\item3.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\item3.png"
-    },
-    {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\android.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\android.png"
-    },
-    {
-        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\player.png",
-        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\player.png"
-    },
-    {
-        "merged": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\android.png",
-        "source": "C:\\Users\\you28\\AndroidStudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\android.png"
-    },
-    {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
-    },
-    {
-        "merged": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\keypad.png",
-        "source": "C:\\Users\\SeungHyun\\StudioProjects\\Camp_defence\\app\\src\\main\\res\\drawable-mdpi\\keypad.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-mdpi/icon.png"
     }
 ]

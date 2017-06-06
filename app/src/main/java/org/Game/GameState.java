@@ -35,7 +35,10 @@ public class GameState implements IState {
 	public static final int SOUND_EFFECT_9 = 9;    // em_4_ falcon
 
 	public int SCORE = 0;
+
+
 	private BackGround m_background;
+
 
 	//ArrayList<Players> m_plist = new ArrayList<Players>();
 	ArrayList<Missile_Player> m_pmslist = new ArrayList<Missile_Player>();
@@ -43,8 +46,6 @@ public class GameState implements IState {
 	ArrayList<Enemy> m_enemlist = new ArrayList<Enemy>();
 	ArrayList<Effect_Explosion> m_explist = new ArrayList<Effect_Explosion>();
 
-	private int m_scroll = 0;
-	private final static int SCROLL_SPEED = 1;
 
 	public int m_score = 0;
 
@@ -76,10 +77,16 @@ public class GameState implements IState {
 		SoundManager.getInstance().addSound(SOUND_EFFECT_8, R.raw.sound_bonus);
 		SoundManager.getInstance().addSound(SOUND_EFFECT_9, R.raw.sound_falcon);
 
-		SoundManager.getInstance().play(1);
 		m_background = new BackGround();
+		//m_life = new Life();
+
+		SoundManager.getInstance().playLooped(1);
+
 		//ㅁ
+
 	}
+
+
 
 	public synchronized void CheckCollision() {
 		Effect_Explosion explist = null;
@@ -95,12 +102,16 @@ public class GameState implements IState {
 
 							if (m_enemlist.get(j).GetHP() <= 0) {
 								if (m_enemlist.get(j).Type == 1) {
+									SoundManager.getInstance().play(6);
 									explist = new Effect_Explosion_1(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 2) {
+									SoundManager.getInstance().play(7);
 									explist = new Effect_Explosion_2(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 3) {
+									SoundManager.getInstance().play(8);
 									explist = new Effect_Explosion_3(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 4) {
+									SoundManager.getInstance().play(9);
 									explist = new Effect_Explosion_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								}
 								m_explist.add(explist);
@@ -139,7 +150,7 @@ public class GameState implements IState {
 
 	public void MakeEnemy() {
 
-		if (System.currentTimeMillis() - m_LastRegenEnemy >= 1500) {
+		if (System.currentTimeMillis() - m_LastRegenEnemy >= 2500) {
 			m_LastRegenEnemy = System.currentTimeMillis();
 
 			int enemtype = m_randEnem.nextInt(4);
@@ -159,13 +170,13 @@ public class GameState implements IState {
 
 			//적 유닛의 위치 조정
 			if (enemPosi == 0) {
-				enem.SetPosition(1920, 200);
+				enem.SetPosition(1920, 100);
 			}
 			if (enemPosi == 1) {
-				enem.SetPosition(1920, 400);
+				enem.SetPosition(1920, 350);
 			}
 			if (enemPosi == 2) {
-				enem.SetPosition(1920, 600);
+				enem.SetPosition(1920, 580);
 			}
 			if (enemPosi == 3) {
 				enem.SetPosition(1920, 800);
@@ -179,7 +190,7 @@ public class GameState implements IState {
 	@Override
 	public void Render(Canvas canvas) {
 		m_background.Draw(canvas);
-
+		//m_life.Draw(canvas);
 		for (Enemy enem : m_enemlist) {
 			enem.Draw(canvas);
 		}
@@ -190,9 +201,11 @@ public class GameState implements IState {
 		for (Item item : m_itemlist) {
 			item.Draw(canvas);
 		}
-		for (Missile_Player pms : m_pmslist) {
-			if (pms.state != Missile_Player.STATE_OUT) {
-				pms.Draw(canvas);
+		synchronized (this){
+			for (Missile_Player pms : m_pmslist) {
+				if (pms.state != Missile_Player.STATE_OUT) {
+					pms.Draw(canvas);
+				}
 			}
 		}
 		m_player.Draw(canvas);
@@ -201,10 +214,10 @@ public class GameState implements IState {
 		m_player_3.Draw(canvas);
 
 		Paint p = new Paint();
-		p.setTextSize(20);
-		p.setColor(Color.BLACK);
-		canvas.drawText("Life :" + String.valueOf(m_player.getLife()), 0, 20, p);
-		canvas.drawText("Score :" + String.valueOf(m_score), 0, 40, p);
+		p.setTextSize(80);
+		p.setColor(Color.RED);
+		canvas.drawText("Life :" + String.valueOf(m_player.getLife()), 0, 0, p);
+		canvas.drawText("Score :" + String.valueOf(m_score), 0, 80, p);
 	}
 
 
@@ -255,21 +268,20 @@ public class GameState implements IState {
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 
-
 		int _x = (int) event.getX();
 		int _y = (int) event.getY();
 
 		if (System.currentTimeMillis() - m_LastTouch >= 300) {
 			m_LastTouch = System.currentTimeMillis();
 
-			if (Collision.CollisionCheckPointToBox(_x, _y, 100, 100, 300, 300)) {
-				m_pmslist.add(new Missile_Player(_x + 10, 200));
+			if (Collision.CollisionCheckPointToBox(_x, _y, 100, 50, 300, 250)) {
+				m_pmslist.add(new Missile_Player(_x + 10, 150));
 			} else if (Collision.CollisionCheckPointToBox(_x, _y, 100, 300, 300, 500)) {
 				m_pmslist.add(new Missile_Player(_x + 10, 400));
-			} else if (Collision.CollisionCheckPointToBox(_x, _y, 100, 500, 300, 700)) {
+			} else if (Collision.CollisionCheckPointToBox(_x, _y, 100, 550, 300, 800)) {
 				m_pmslist.add(new Missile_Player(_x + 10, 600));
-			} else if (Collision.CollisionCheckPointToBox(_x, _y, 100, 700, 300, 900)) {
-				m_pmslist.add(new Missile_Player(_x + 10, 800));
+			} else if (Collision.CollisionCheckPointToBox(_x, _y, 100, 850, 300, 1050)) {
+				m_pmslist.add(new Missile_Player(_x + 10, 850));
 			}
 		}
 			return true;

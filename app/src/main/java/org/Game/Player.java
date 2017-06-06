@@ -20,7 +20,7 @@ public class Player extends GraphicObject {
 		super(bitmap);
 
 
-		this.SetPosition(100, 100);
+		this.SetPosition(100, 50);
 	}
 
 	

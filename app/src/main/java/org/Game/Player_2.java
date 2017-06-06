@@ -17,7 +17,7 @@ public class Player_2 extends GraphicObject {
     Rect m_BoundBox = new Rect();
     public Player_2(Bitmap bitmap){
         super(bitmap);
-        this.SetPosition(100, 500);
+        this.SetPosition(100, 550);
         m_BoundBox.set(m_x,m_y,m_x+100,m_y+100);
 
     }
