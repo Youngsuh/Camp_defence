@@ -114,6 +114,9 @@ public class GameState implements IState {
 									SoundManager.getInstance().play(9);
 									explist = new Effect_Explosion_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								}
+								else if (m_enemlist.get(j).Type == 5) {
+									explist = new Effect_Explosion_5(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
+								}
 								m_explist.add(explist);
 
 
@@ -153,19 +156,22 @@ public class GameState implements IState {
 		if (System.currentTimeMillis() - m_LastRegenEnemy >= 2500) {
 			m_LastRegenEnemy = System.currentTimeMillis();
 
-			int enemtype = m_randEnem.nextInt(4);
+			int enemtype = m_randEnem.nextInt(9);
 			int enemPosi = m_randEnem.nextInt(4);
 			Enemy enem = null;
 
 			//적유닛을 타입에 따라 생성
-			if (enemtype == 0) {
+			if (enemtype == 0 || enemtype == 4 ) {
 				enem = new Enemy_1();
-			} else if (enemtype == 1) {
+			} else if (enemtype == 1|| enemtype == 5) {
 				enem = new Enemy_2();
-			} else if (enemtype == 2) {
+			} else if (enemtype == 2|| enemtype == 6) {
 				enem = new Enemy_3();
-			} else if (enemtype == 3) {
+			} else if (enemtype == 3|| enemtype == 7) {
 				enem = new Enemy_4();
+			}
+			else if (enemtype == 8) {
+				enem = new Priencess();
 			}
 
 			//적 유닛의 위치 조정
