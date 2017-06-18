@@ -12,7 +12,6 @@ public class BackGround extends GraphicObject {
 
 
 
-
 	public BackGround() {
 		super(AppManager.getInstance().getBitmap(R.drawable.main_bg_refair));
 	}

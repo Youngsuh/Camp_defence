@@ -8,6 +8,10 @@
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/em_yeti.png"
     },
     {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/start_background.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/start_background.png"
+    },
+    {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/item_timer.png",
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/item_timer.png"
     },
@@ -32,8 +36,8 @@
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/main_bg_refair.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/hp_down.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/hp_down.png"
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_snowflake.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/bg_snowflake.png"
     },
     {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/em_ice_wolf.png",
@@ -44,12 +48,20 @@
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/ef_falcon_die.png"
     },
     {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/item_hp_down.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/item_hp_down.png"
+    },
+    {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/item_speed_down.png",
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/item_speed_down.png"
     },
     {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/pl_life.png",
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/pl_life.png"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_kpu_credit.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/bg_kpu_credit.png"
     },
     {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/wp_arrow.png",
@@ -110,5 +122,9 @@
     {
         "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/main_background.png",
         "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/main_background.png"
+    },
+    {
+        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_rain.png",
+        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-hdpi/bg_rain.png"
     }
 ]

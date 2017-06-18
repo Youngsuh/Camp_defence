@@ -1,13 +1,8 @@
 package org.Framework; 
 
-import org.Game.BackGround;
-import org.Game.GameState;
-import org.Game.Player;
+import org.Game.State_LoadingState;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.view.KeyEvent;
@@ -32,7 +27,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback{
     	AppManager.getInstance().setResources(getResources());
     	AppManager.getInstance().setSize(getWidth(), getHeight());
   
-    	ChangeGameState(new GameState());
+    	ChangeGameState(new State_LoadingState());
     	
         getHolder().addCallback(this);
         _thread = new GameViewThread(getHolder(),this);

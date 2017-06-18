@@ -14,9 +14,9 @@ public class Enemy extends SpriteAnimation {
 	public int state =  STATE_NORMAL;
 
 	Rect m_BoundBox = new Rect();
-	
 
 
+	public Player m_player;
 	protected int hp;
 	public float speed;
 	protected int score;
@@ -36,8 +36,11 @@ public class Enemy extends SpriteAnimation {
 		// 움직이는 로직
 		m_x -= speed;
 
-		if(m_x < 0)
+		if(m_x < 0){
 			state = STATE_OUT;
+			//해결해야 할 사항1 - 이곳에 m_player.getLife() -- 가 들어가야함
+			AppManager.getInstance().m_gamestate.m_life--;
+		}
 		
 	}
 
