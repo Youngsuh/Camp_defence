@@ -13,7 +13,7 @@ import org.Framework.R;
 
 public class BackGround_GameOver extends GraphicObject{
     public BackGround_GameOver() {
-        super(AppManager.getInstance().getBitmap(R.drawable.bg_end_background));
+        super(AppManager.getInstance().getBitmap(R.drawable.bg_ending_background));
     }
 
     @Override

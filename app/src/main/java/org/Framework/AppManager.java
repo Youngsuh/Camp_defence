@@ -3,6 +3,7 @@ package org.Framework;
 import org.Game.State_GameOver;
 import org.Game.State_GameState;
 import org.Game.State_LoadingState;
+import org.Game.State_StageClear;
 import org.Game.State_StartState;
 
 import android.app.Activity;
@@ -26,6 +27,7 @@ public class AppManager {
 	public State_LoadingState m_loadingstate;
 	public State_StartState m_startstate;
 	public State_GameOver m_gameover;
+	public State_StageClear m_stateClear;
 	private int m_width;
 	private int m_height;
 

@@ -13,7 +13,7 @@ public class Safty_Priencess extends Enemy {
         this.InitSpriteData(200, 87, 10, 10);
         hp = 5;
         speed = 6;
-        score = 400;
+        score = 0;
         Type =5;
     }
 

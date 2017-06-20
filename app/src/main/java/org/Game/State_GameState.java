@@ -121,19 +121,24 @@ public class State_GameState implements IState {
 								if (itemlist == 1) { //hp up
 									item_list = new Item_1(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 									m_itemlist.add(item_list);
+									if(m_life <20)
+										m_life++;
 
-								} else if (itemlist == 2) { // speed down
+								}
+								else if (itemlist == 2) { // speed down
 									item_list = new Item_2(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 									m_itemlist.add(item_list);
-
-								} else if (itemlist == 3) { // speed up
+									for (int k = m_enemlist.size() - 1; k >= 0; k--)
+										m_enemlist.get(k).speed--;
+								}
+								else if (itemlist == 3) { // speed up
 									item_list = new Item_3(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 									m_itemlist.add(item_list);
+									for (int k = m_enemlist.size() - 1; k >= 0; k--)
+										m_enemlist.get(k).speed++;
 
-								} else if (itemlist == 4) {// speed up
-									item_list = new Item_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
-									m_itemlist.add(item_list);
-								} else if (itemlist == 5) { //timer
+								}
+								else if (itemlist == 4) { //timer
 									item_list = new Item_5(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 									m_itemlist.add(item_list);
 
@@ -233,6 +238,7 @@ public class State_GameState implements IState {
 		if(SCORE >5000 + 2000*STAGE){
 			AppManager.getInstance().getGameView().ChangeGameState(new State_StageClear());
 			STAGE =0;
+			m_life++;
 			SCORE =0;
 		}
 		long GameTime = System.currentTimeMillis();

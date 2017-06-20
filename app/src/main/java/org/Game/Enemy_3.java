@@ -10,7 +10,7 @@ public class Enemy_3 extends Enemy {
 		this.InitSpriteData(220	, 157, 3, 6);
 		hp = 13;
 		speed = 2;
-		score = 1000;
+		score = 500;
 		Type =3;
 		//movetype = Enemy.MOVE_PATTERN_3;
 	}

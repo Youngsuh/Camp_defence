@@ -13,7 +13,7 @@ import org.Framework.R;
 
 public class BackGround_GameClear extends GraphicObject{
     public BackGround_GameClear() {
-        super(AppManager.getInstance().getBitmap(R.drawable.bg_ending_background));
+        super(AppManager.getInstance().getBitmap(R.drawable.bg_end_background));
     }
 
     @Override

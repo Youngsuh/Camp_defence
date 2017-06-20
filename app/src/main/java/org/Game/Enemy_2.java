@@ -11,7 +11,7 @@ public class Enemy_2 extends Enemy {
 		//700 120
 		hp = 10;
 		speed = 3;
-		score = 1000;
+		score = 400;
 		Type =2;
 		//movetype = Enemy.MOVE_PATTERN_3;
 	}

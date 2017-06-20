@@ -14,7 +14,7 @@ public class Enemy_4 extends Enemy{
         this.InitSpriteData(200, 263, 10, 10);
         hp = 5;
         speed = 6;
-        score = 400;
+        score = 200;
         Type =4;
     }
 
