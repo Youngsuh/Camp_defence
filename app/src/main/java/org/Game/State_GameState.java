@@ -32,7 +32,7 @@ public class State_GameState implements IState {
 
 	public int SCORE = 0;
 	public static int m_life = 20;
-
+	public int STAGE = 0;
 	private BackGround m_background;
 	private UI_ScoreBoard m_scoreboard;
 
@@ -95,18 +95,24 @@ public class State_GameState implements IState {
 							if (m_enemlist.get(j).GetHP() <= 0) {
 								if (m_enemlist.get(j).Type == 1) {
 									SoundManager.getInstance().play(6);
+									SCORE += 300;
 									explist = new Effect_Explosion_1(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 2) {
 									SoundManager.getInstance().play(7);
+									SCORE += 400;
 									explist = new Effect_Explosion_2(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 3) {
+									SCORE += 500;
 									SoundManager.getInstance().play(8);
 									explist = new Effect_Explosion_3(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								} else if (m_enemlist.get(j).Type == 4) {
 									SoundManager.getInstance().play(9);
+									SCORE += 200;
 									explist = new Effect_Explosion_4(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								}
 								else if (m_enemlist.get(j).Type == 5) {
+									SCORE += 0;
+									m_life--;
 									explist = new Effect_Explosion_5(m_enemlist.get(j).GetX(), m_enemlist.get(j).GetY());
 								}
 								m_explist.add(explist);
@@ -222,7 +228,12 @@ public class State_GameState implements IState {
 	@Override
 	public void Update() {
 		if(m_life ==0){
-			AppManager.getInstance().getGameView().ChangeGameState(new State_GameState());
+			AppManager.getInstance().getGameView().ChangeGameState(new State_GameOver());
+		}
+		if(SCORE >5000 + 2000*STAGE){
+			AppManager.getInstance().getGameView().ChangeGameState(new State_StageClear());
+			STAGE =0;
+			SCORE =0;
 		}
 		long GameTime = System.currentTimeMillis();
 		m_background.Update(GameTime);
