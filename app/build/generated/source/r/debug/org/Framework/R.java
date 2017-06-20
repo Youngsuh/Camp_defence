@@ -38,16 +38,19 @@ public final class R {
         public static final int item_speed_down=0x7f020018;
         public static final int item_speed_up=0x7f020019;
         public static final int item_timer=0x7f02001a;
-        public static final int keypad=0x7f02001b;
-        public static final int main_background=0x7f02001c;
-        public static final int main_bg_refair=0x7f02001d;
-        public static final int pl_ballista=0x7f02001e;
-        public static final int pl_ballista_refair=0x7f02001f;
-        public static final int pl_life=0x7f020020;
-        public static final int pl_score_board=0x7f020021;
-        public static final int start_background=0x7f020022;
-        public static final int wp_arrow=0x7f020023;
-        public static final int wp_arrow_refair=0x7f020024;
+        public static final int item_timer_colon=0x7f02001b;
+        public static final int item_timer_number=0x7f02001c;
+        public static final int keypad=0x7f02001d;
+        public static final int main_background=0x7f02001e;
+        public static final int main_bg_refair=0x7f02001f;
+        public static final int pl_ballista=0x7f020020;
+        public static final int pl_ballista_refair=0x7f020021;
+        public static final int pl_life=0x7f020022;
+        public static final int pl_score_board=0x7f020023;
+        public static final int start_background=0x7f020024;
+        public static final int weapon_boom=0x7f020025;
+        public static final int wp_arrow=0x7f020026;
+        public static final int wp_arrow_refair=0x7f020027;
     }
     public static final class layout {
         public static final int main=0x7f030000;

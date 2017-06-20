@@ -1,4 +1,7 @@
-#Tue Jun 20 17:01:13 KST 2017
-base.0=/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Wed Jun 21 05:16:49 KST 2017
+base.0=C\:\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_db5ca046982cd2dfc43f0f90869ba159613dbb64
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=C\:\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b52efe806b1044d13fb2f181e171231cccc2f13c\\classes.dex
+base.1=C\:\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b52efe806b1044d13fb2f181e171231cccc2f13c
+file.0=C\:\\Camp_defence\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_db5ca046982cd2dfc43f0f90869ba159613dbb64\\classes.dex

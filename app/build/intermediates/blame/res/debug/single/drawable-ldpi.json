@@ -1,18 +1,34 @@
 [
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-ldpi/bg_ending_background.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-ldpi/bg_ending_background.png"
+        "merged": "C:\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_end_background.png",
+        "source": "C:\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\bg_end_background.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-ldpi/bg_start_background.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-ldpi/bg_start_background.png"
+        "merged": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-ldpi/icon.png"
+        "merged": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_end_background.png",
+        "source": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\drawable-ldpi\\bg_end_background.png"
     },
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/drawable-ldpi/bg_end_background.png",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/drawable-ldpi/bg_end_background.png"
+        "merged": "C:\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_ending_background.png",
+        "source": "C:\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\bg_ending_background.png"
+    },
+    {
+        "merged": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_start_background.png",
+        "source": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\drawable-ldpi\\bg_start_background.png"
+    },
+    {
+        "merged": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_ending_background.png",
+        "source": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\drawable-ldpi\\bg_ending_background.png"
+    },
+    {
+        "merged": "C:\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\bg_start_background.png",
+        "source": "C:\\Camp_defence\\app\\src\\main\\res\\drawable-ldpi\\bg_start_background.png"
     }
 ]

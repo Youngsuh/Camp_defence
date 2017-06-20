@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="df5d8c3520f8549e7d03b4d6bb390f75a1fc7c1b">
-        <dex dex="/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d47ccbda653441e784c782b41a2649f838eaa033/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Camp_defence\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_78a1a5cf7003442988b3c1345c74b045e6361983/classes.dex" />
+        <dex dex="C:\Camp_defence\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_db5ca046982cd2dfc43f0f90869ba159613dbb64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Camp_defence\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12b113aed40eaeb6e30c6137331204beb34e8587">
+        <dex dex="C:\Camp_defence\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b52efe806b1044d13fb2f181e171231cccc2f13c\classes.dex" />
     </item>
 
 </items>

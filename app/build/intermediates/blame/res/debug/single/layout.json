@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/layout/main.xml"
+        "merged": "C:\\Camp_defence\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Camp_defence\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\layout\\main.xml"
     }
 ]

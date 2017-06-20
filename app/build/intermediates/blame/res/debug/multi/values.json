@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Camp_defence\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,50 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Camp_defence\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 46,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 60,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Camp_defence\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 60,
+                        "endOffset": 113
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +73,7 @@
                     "endOffset": 158
                 },
                 "from": {
-                    "file": "/Users/KimYoung-Suh/AndroidStudioProjects/Camp_defence_001/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\KimYoung-Suh\\AndroidStudioProjects\\Camp_defence_001\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

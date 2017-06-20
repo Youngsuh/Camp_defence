@@ -35,6 +35,7 @@ public class State_GameState implements IState {
 	public int STAGE = 0;
 	private BackGround m_background;
 	private UI_ScoreBoard m_scoreboard;
+	private Timer m_Timer;
 
 	//ArrayList<Players> m_plist = new ArrayList<Players>();
 	ArrayList<Missile_Player> m_pmslist = new ArrayList<Missile_Player>();
@@ -71,6 +72,7 @@ public class State_GameState implements IState {
 
 		m_background = new BackGround();
 		m_scoreboard = new UI_ScoreBoard();
+		m_Timer = new Timer();
 		//m_life = new Life();
 
 
@@ -227,6 +229,8 @@ public class State_GameState implements IState {
 		p.setTextSize(80);
 		p.setColor(Color.RED);
 		canvas.drawText("Life :" + String.valueOf(m_player.getLife()), 0, 0, p);
+
+		m_Timer.Draw(canvas);
 	}
 
 
@@ -235,7 +239,7 @@ public class State_GameState implements IState {
 		if(m_life ==0){
 			AppManager.getInstance().getGameView().ChangeGameState(new State_GameOver());
 		}
-		if(SCORE >5000 + 2000*STAGE){
+		if(SCORE >5000 + 2000*STAGE || m_Timer.GamePlayState == Timer.GAME_END){
 			AppManager.getInstance().getGameView().ChangeGameState(new State_StageClear());
 			STAGE =0;
 			m_life++;
@@ -244,6 +248,7 @@ public class State_GameState implements IState {
 		long GameTime = System.currentTimeMillis();
 		m_background.Update(GameTime);
 		m_scoreboard.Update(GameTime);
+		m_Timer.Update(GameTime);
 		for (int i = m_pmslist.size() - 1; i >= 0; i--) {
 			Missile_Player pms = m_pmslist.get(i);
 			pms.Update();
